@@ -19,7 +19,7 @@ public class NBody{
 		Planet[] allPlanets = new Planet[numberOfPlanets];
 		double radius = in.readDouble ();
 		/*	Assign properties to each allPlanets[i]*/
-		for (int i = 0; i <= numberOfPlanets; i++){
+		for (int i = 0; i < numberOfPlanets; i++){
 			/*	!!												!!
 			 *	!! Remeber to instantiation every allPlanets[i] !!
 				!!											    !!	*/
