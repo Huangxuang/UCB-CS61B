@@ -14,11 +14,12 @@ public class NBody{
 	/*	return a array of five planets*/
 	public static Planet[] readPlanets(String fileLocation){
 		In in = new In(fileLocation);
-		Planet[] allPlanets = new Planet[5];
+		
 		int numberOfPlanets = in.readInt();
+		Planet[] allPlanets = new Planet[numberOfPlanets];
 		double radius = in.readDouble ();
 		/*	Assign properties to each allPlanets[i]*/
-		for (int i = 0; i <= 4; i++){
+		for (int i = 0; i <= numberOfPlanets; i++){
 			/*	!!												!!
 			 *	!! Remeber to instantiation every allPlanets[i] !!
 				!!											    !!	*/
