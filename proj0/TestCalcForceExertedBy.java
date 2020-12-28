@@ -3,7 +3,7 @@ import java.math.*;
 /**
  *  Tests calcForceExertedBy
  */
-public class TestCalcForceExertedBy {
+public class TestCalcForceExertedBy{
 
     /**
      *  Tests calcForceExertedBy.

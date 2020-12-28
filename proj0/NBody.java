@@ -25,7 +25,6 @@ public class NBody{
 				!!											    !!	*/
 			allPlanets[i] = new Planet (in.readDouble(),in.readDouble(),in.readDouble(),
 										in.readDouble(),in.readDouble(),in.readString());
-
 			
 		}
 		return allPlanets;		
