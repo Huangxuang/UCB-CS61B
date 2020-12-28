@@ -66,10 +66,13 @@ public class IntList {
      * Returns a list equal to L with all elements squared. Non-destructive.
      */
     public static IntList squareListRecursive(IntList L) {
+       //if I creet a new Intlist rest to store :
+       // IntList rest = new IntList();
         if (L == null) {
             return null;
         }
-        return new IntList(L.first * L.first, squareListRecursive(L.rest));
+       return new IntList(L.first * L.first, squareListRecursive(L.rest));
+
     }
 
     /** DO NOT MODIFY ANYTHING ABOVE THIS LINE! */
@@ -82,7 +85,16 @@ public class IntList {
 
     public static IntList dcatenate(IntList A, IntList B) {
         //TODO:  fill in method
-        return null;
+        //Recursive solution
+       // IntList temp = new IntList();
+      //  temp = A;
+        if (A == null){
+            A = B;
+            return A;
+        }
+        A.rest = dcatenate(A.rest,B);
+        return A;
+
     }
 
     /**
@@ -91,7 +103,32 @@ public class IntList {
      */
     public static IntList catenate(IntList A, IntList B) {
         //TODO:  fill in method
-        return null;
+        /* Start with iteration method */
+        /*
+        if (A == null) {
+            return B;
+        }
+
+        IntList temp = new IntList(A.first,null);
+        //Have to creat a Intlist point to the fisrt element of temp
+        IntList res = temp;
+
+        while ( A.rest != null){
+            // Have to creat a new Intlist every time
+            temp.rest = new IntList(A.rest.first,null);
+            temp = temp.rest;
+            A = A.rest;
+        }
+        temp.rest = B;
+        return res;
+        */
+
+        /* Try Recursive method*/
+        if (A == null){
+            return B;
+        }
+        return new IntList(A.first, catenate(A.rest, B));
+
     }
 
 
