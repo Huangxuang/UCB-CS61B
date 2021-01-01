@@ -95,7 +95,7 @@ public class LinkedListDeque <Stuff> {
             return null;
         }
         DoubleLinkedNode temp = sentinel;
-        for (int i = 0; i == index ; i++){
+        for (int i = 0; i <= index ; i++){
              temp = temp.next;
         }
         return temp.item;
