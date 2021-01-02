@@ -104,7 +104,7 @@ public class LinkedListDeque<T> {
     /* This is the help class to do getRecursive
     *return a DoubleLinkedNode temp point to the ith item
      */
-    public DoubleLinkedNode getItem(DoubleLinkedNode temp, int index) {
+    private DoubleLinkedNode getItem(DoubleLinkedNode temp, int index) {
 
         if (index == 0) {
             return temp;

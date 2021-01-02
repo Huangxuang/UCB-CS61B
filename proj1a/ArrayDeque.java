@@ -14,7 +14,7 @@ public class ArrayDeque<T> {
         nextLast = 5;
     }
     //enlarge current size to 2 times
-    public void enlarge() {
+    private void enlarge() {
         T[] temp = (T[]) new Object[size * 2];
         if (nextFirst < nextLast) {
             //copy items in int[] this before index nextfirst into int[] temp at the same location
@@ -31,7 +31,7 @@ public class ArrayDeque<T> {
         items = temp;
     }
 
-    public T[] addLast(T x) {
+    public void addLast(T x) {
         //If ArrayDeque is full:
         if (size  == items.length) {
             //call enlarge method
@@ -46,11 +46,10 @@ public class ArrayDeque<T> {
             nextLast += 1;
         }
         size += 1;
-        return items;
 
     }
 
-    public T[] addFirst(T x) {
+    public void addFirst(T x) {
         //If ArrayDeque is full:
         if (size  == items.length) {
             //call enlarge method
@@ -60,7 +59,6 @@ public class ArrayDeque<T> {
         items[nextFirst] = x;
         nextFirst = (nextFirst + items.length - 1) % items.length;
         size += 1;
-        return items;
     }
 
     public boolean isEmpty() {
@@ -72,7 +70,7 @@ public class ArrayDeque<T> {
     }
 
     //decrease current size to half
-    public void shrink() {
+    private void shrink() {
         T[] temp = (T[]) new Object[items.length / 2];
         //when nF is on the right side of nL
         if (nextFirst > nextLast) {
