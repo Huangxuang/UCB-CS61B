@@ -1,12 +1,12 @@
-public class LinkedListDeque<Stuff> {
+public class LinkedListDeque<T> {
 
     //Create the naked Nested Class DoubleLinkedNote
     private class DoubleLinkedNode {
         private DoubleLinkedNode next;
         private DoubleLinkedNode previous;
-        private Stuff item;
+        private T item;
 
-        DoubleLinkedNode(Stuff x, DoubleLinkedNode previous, DoubleLinkedNode next) {
+        DoubleLinkedNode(T x, DoubleLinkedNode previous, DoubleLinkedNode next) {
             item = x;
             this.next = next;
             this.previous = previous;
@@ -33,14 +33,14 @@ public class LinkedListDeque<Stuff> {
         return size == 0;
     }
 
-    public void addFirst(Stuff x) {
+    public void addFirst(T x) {
         DoubleLinkedNode temp = sentinel.next;
         sentinel.next = new DoubleLinkedNode(x, sentinel, sentinel.next);
         temp.previous = sentinel.next;
         size += 1;
     }
 
-    public void addLast(Stuff x) {
+    public void addLast(T x) {
         DoubleLinkedNode temp = sentinel.previous;
         sentinel.previous = new DoubleLinkedNode(x, sentinel.previous, sentinel);
         temp.next = sentinel.previous;
@@ -62,7 +62,7 @@ public class LinkedListDeque<Stuff> {
         System.out.println("Empty !");
     }
 
-    public Stuff  removeFirst() {
+    public T removeFirst() {
         if (size == 0) {
             return null;
         }
@@ -76,7 +76,7 @@ public class LinkedListDeque<Stuff> {
         return temp.item;
     }
 
-    public Stuff  removeLast() {
+    public T removeLast() {
         if (size == 0) {
             return null;
         }
@@ -90,7 +90,7 @@ public class LinkedListDeque<Stuff> {
         return temp.item;
     }
 
-    public Stuff get(int index) {
+    public T get(int index) {
         if ((index > size - 1) || index < 0) {
             return null;
         }
@@ -112,7 +112,7 @@ public class LinkedListDeque<Stuff> {
         return getItem(temp.next, index - 1);
     }
 
-    public Stuff getRecursive(int index) {
+    public T getRecursive(int index) {
         if ((index > size - 1) || index < 0) {
             return null;
         }

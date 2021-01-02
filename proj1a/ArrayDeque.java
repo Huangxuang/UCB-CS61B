@@ -1,5 +1,5 @@
-public class ArrayDeque<Stuff> {
-    private Stuff[] items;
+public class ArrayDeque<T> {
+    private T[] items;
     private int size;
     private int nextFirst;
     private int nextLast;
@@ -8,14 +8,14 @@ public class ArrayDeque<Stuff> {
  * The position of the last item to be inserted is always nextLast
  * size is always the number of items in the ArrayDeque*/
     public ArrayDeque() {
-        items = (Stuff[]) new Object[8];
+        items = (T[]) new Object[8];
         size = 0;
         nextFirst = 4;
         nextLast = 5;
     }
     //enlarge current size to 2 times
     public void enlarge() {
-        Stuff [] temp = (Stuff[]) new Object[size * 2];
+        T[] temp = (T[]) new Object[size * 2];
         if (nextFirst < nextLast) {
             //copy items in int[] this before index nextfirst into int[] temp at the same location
             System.arraycopy(items, 0, temp, 0, nextFirst + 1);
@@ -31,7 +31,7 @@ public class ArrayDeque<Stuff> {
         items = temp;
     }
 
-    public Stuff[] addLast(Stuff x) {
+    public T[] addLast(T x) {
         //If ArrayDeque is full:
         if (size  == items.length) {
             //call enlarge method
@@ -50,7 +50,7 @@ public class ArrayDeque<Stuff> {
 
     }
 
-    public Stuff[] addFirst(Stuff x) {
+    public T[] addFirst(T x) {
         //If ArrayDeque is full:
         if (size  == items.length) {
             //call enlarge method
@@ -73,7 +73,7 @@ public class ArrayDeque<Stuff> {
 
     //decrease current size to half
     public void shrink() {
-        Stuff[] temp = (Stuff[]) new Object[items.length / 2];
+        T[] temp = (T[]) new Object[items.length / 2];
         //when nF is on the right side of nL
         if (nextFirst > nextLast) {
             //copy items in int[] this before index nextLast into int[] temp at the same location
@@ -92,13 +92,13 @@ public class ArrayDeque<Stuff> {
 
     }
 
-    public Stuff removeFirst() {
+    public T removeFirst() {
         if (size == 0) {
             return null;
         }
         nextFirst = (nextFirst + 1 + items.length) % items.length;
         size--;
-        Stuff res = items[nextFirst];
+        T res = items[nextFirst];
         items[nextFirst] = null;
         if (items.length >= 16 && size < 0.25 * items.length) {
             this.shrink();
@@ -106,20 +106,20 @@ public class ArrayDeque<Stuff> {
         return res;
     }
 
-    public Stuff removeLast() {
+    public T removeLast() {
         if (size == 0) {
             return null;
         }
         nextLast = (nextLast - 1 + items.length) % items.length;
         size--;
-        Stuff res = items[nextLast];
+        T res = items[nextLast];
         items[nextLast] = null;
         if (items.length >= 16 && size < 0.25 * items.length) {
             this.shrink();
         }
         return res;
     }
-    public Stuff get(int index) {
+    public T get(int index) {
         if ((index > size - 1) || index < 0) {
             return null;
         }
