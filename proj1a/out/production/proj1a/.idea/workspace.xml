@@ -25,9 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d177ac-314a-440c-8c25-809e93b4c26b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedListDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayDequeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2/Intlist/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Intlist/IntList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedListDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListDequeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj1a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1a/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj1a/LinkedListDeque$DoubleLinkedNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1a/LinkedListDeque$DoubleLinkedNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ArrayDequeTest">
+    <configuration name="ArrayDequeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayDequeTest" />
+      <module name="proj1a" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListDequeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListDequeTest" />
       <module name="proj1a" />
@@ -66,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDequeTest" />
         <item itemvalue="Application.LinkedListDequeTest" />
       </list>
     </recent_temporary>
@@ -91,5 +102,78 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1609549638507">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609549638507" />
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.25.1280.695@0.25.1280.695" timestamp="1609538493933" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1609549638506">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609549638506" />
+    <state width="1238" height="210" key="GridCell.Tab.0.center/0.25.1280.695@0.25.1280.695" timestamp="1609538493932" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1609549638505">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609549638505" />
+    <state width="1238" height="210" key="GridCell.Tab.0.left/0.25.1280.695@0.25.1280.695" timestamp="1609538493932" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1609549638506">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609549638506" />
+    <state width="1238" height="210" key="GridCell.Tab.0.right/0.25.1280.695@0.25.1280.695" timestamp="1609538493933" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1609549638510">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609549638510" />
+    <state width="1238" height="210" key="GridCell.Tab.1.bottom/0.25.1280.695@0.25.1280.695" timestamp="1609538488246" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1609549638508">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1609549638508" />
+    <state width="1238" height="210" key="GridCell.Tab.1.center/0.25.1280.695@0.25.1280.695" timestamp="1609538488242" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1609549638508">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1609549638508" />
+    <state width="1238" height="210" key="GridCell.Tab.1.left/0.25.1280.695@0.25.1280.695" timestamp="1609538488241" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1609549638509">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1609549638509" />
+    <state width="1238" height="210" key="GridCell.Tab.1.right/0.25.1280.695@0.25.1280.695" timestamp="1609538488244" />
+    <state width="1238" height="263" key="GridCell.Tab.2.bottom" timestamp="1609549638512">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609549638512" />
+    <state width="0" height="0" key="GridCell.Tab.2.bottom/0.25.1280.695@0.25.1280.695" timestamp="1609538487762" />
+    <state width="1238" height="263" key="GridCell.Tab.2.center" timestamp="1609549638511">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1609549638511" />
+    <state width="0" height="0" key="GridCell.Tab.2.center/0.25.1280.695@0.25.1280.695" timestamp="1609538487752" />
+    <state width="1238" height="263" key="GridCell.Tab.2.left" timestamp="1609549638510">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1609549638510" />
+    <state width="0" height="0" key="GridCell.Tab.2.left/0.25.1280.695@0.25.1280.695" timestamp="1609538487750" />
+    <state width="1238" height="263" key="GridCell.Tab.2.right" timestamp="1609549638511">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1609549638511" />
+    <state width="0" height="0" key="GridCell.Tab.2.right/0.25.1280.695@0.25.1280.695" timestamp="1609538487757" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArrayDequeTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
