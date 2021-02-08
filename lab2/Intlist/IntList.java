@@ -104,7 +104,7 @@ public class IntList {
     public static IntList catenate(IntList A, IntList B) {
         //TODO:  fill in method
         /* Start with iteration method */
-        /*
+
         if (A == null) {
             return B;
         }
@@ -121,14 +121,14 @@ public class IntList {
         }
         temp.rest = B;
         return res;
-        */
 
-        /* Try Recursive method*/
+        /*
+        /* Try Recursive method
         if (A == null){
             return B;
         }
         return new IntList(A.first, catenate(A.rest, B));
-
+        */
     }
 
 

@@ -12,7 +12,7 @@ public class TestOffByOne {
     // your CharacterComparator interface and OffByOne class. **/
     @Test
     public void testEqualsChars() {
-        assertTrue(offByOne.equalChars('a', 'b'));
+        assertFalse(offByOne.equalChars('A', 'b'));
         assertTrue(offByOne.equalChars('c', 'b'));
     }
 }

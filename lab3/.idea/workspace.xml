@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:skeleton" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4aac262-97a7-4b39-bd69-61ceafa0651e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab2/Intlist/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Intlist/IntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/OffByN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/OffByN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/TestOffByN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/TestOffByN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/TestOffByOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/TestOffByOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/out/production/proj1b/OffByN.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/out/production/proj1b/OffByN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/out/production/proj1b/TestOffByOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/out/production/proj1b/TestOffByOne.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mYEpDeDyaekhZihaGdFAYWOU2Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.HorribleSteve">
+    <configuration name="ArithmeticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArithmeticTest" />
+      <module name="lab3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HorribleSteve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HorribleSteve" />
+      <module name="lab3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArithmeticTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTest.testSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArithmeticTest" />
+      <option name="METHOD_NAME" value="testSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntListTest.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntListTest" />
+      <option name="METHOD_NAME" value="testReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HorribleSteve" />
+        <item itemvalue="JUnit.IntListTest.testReverse" />
+        <item itemvalue="JUnit.ArithmeticTest" />
+        <item itemvalue="Application.ArithmeticTest" />
+        <item itemvalue="JUnit.ArithmeticTest.testSum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4aac262-97a7-4b39-bd69-61ceafa0651e" name="Default Changelist" comment="" />
+      <created>1609662306627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609662306627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="25" width="800" height="695" key="#Plugins" timestamp="1609662483895">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="240" y="25" width="800" height="695" key="#Plugins/0.25.1280.695@0.25.1280.695" timestamp="1609662483895" />
+    <state x="128" y="25" key="#Project_Structure" timestamp="1609664147732">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="128" y="25" key="#Project_Structure/0.25.1280.695@0.25.1280.695" timestamp="1609664147732" />
+    <state x="100" y="125" width="1080" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1609722841515">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="100" y="125" width="1080" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1280.695@0.25.1280.695" timestamp="1609722841515" />
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1609878162748">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.25.1280.695@0.25.1280.695" timestamp="1609878162748" />
+    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1609878162747">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.center/0.25.1280.695@0.25.1280.695" timestamp="1609878162747" />
+    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1609878162747">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.left/0.25.1280.695@0.25.1280.695" timestamp="1609878162747" />
+    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1609878162748">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.right/0.25.1280.695@0.25.1280.695" timestamp="1609878162748" />
+    <state width="1238" height="210" key="GridCell.Tab.1.bottom" timestamp="1609878162749">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.1.bottom/0.25.1280.695@0.25.1280.695" timestamp="1609878162749" />
+    <state width="1238" height="210" key="GridCell.Tab.1.center" timestamp="1609878162749">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.1.center/0.25.1280.695@0.25.1280.695" timestamp="1609878162749" />
+    <state width="1238" height="210" key="GridCell.Tab.1.left" timestamp="1609878162748">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.1.left/0.25.1280.695@0.25.1280.695" timestamp="1609878162748" />
+    <state width="1238" height="210" key="GridCell.Tab.1.right" timestamp="1609878162749">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.1.right/0.25.1280.695@0.25.1280.695" timestamp="1609878162749" />
+    <state width="1238" height="210" key="GridCell.Tab.2.bottom" timestamp="1609878162751">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.2.bottom/0.25.1280.695@0.25.1280.695" timestamp="1609878162751" />
+    <state width="1238" height="210" key="GridCell.Tab.2.center" timestamp="1609878162750">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.2.center/0.25.1280.695@0.25.1280.695" timestamp="1609878162750" />
+    <state width="1238" height="210" key="GridCell.Tab.2.left" timestamp="1609878162750">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.2.left/0.25.1280.695@0.25.1280.695" timestamp="1609878162750" />
+    <state width="1238" height="210" key="GridCell.Tab.2.right" timestamp="1609878162750">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.2.right/0.25.1280.695@0.25.1280.695" timestamp="1609878162750" />
+    <state x="128" y="25" key="SettingsEditor" timestamp="1609663514335">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="128" y="25" key="SettingsEditor/0.25.1280.695@0.25.1280.695" timestamp="1609663514335" />
+    <state x="305" y="44" width="670" height="676" key="search.everywhere.popup" timestamp="1609662388635">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="305" y="44" width="670" height="676" key="search.everywhere.popup/0.25.1280.695@0.25.1280.695" timestamp="1609662388635" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="i==125" language="JAVA" />
+          <url>file://$PROJECT_DIR$/Flik/HorribleSteve.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

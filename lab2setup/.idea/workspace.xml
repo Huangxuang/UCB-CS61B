@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:skeleton" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c48eb6c-9c30-4d2c-8386-e165984fd978" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../proj0/NBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj0/NBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj0/TestCalcForceExertedBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj0/TestCalcForceExertedBy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Berkeley-CS61B/skeleton-sp18" />
+        <option value="https://github.com/Huangxuang/UCB-CS61B" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mAQsWC4gSznK53qui3WotKKcRw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunManager" selected="JUnit.DogTest">
+    <configuration name="DogTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2setup" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2setup" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DogTest" />
+        <item itemvalue="Android JUnit.DogTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c48eb6c-9c30-4d2c-8386-e165984fd978" name="Default Changelist" comment="" />
+      <created>1608934124915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608934124915</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="162" key="GridCell.Tab.0.bottom" timestamp="1608937290819">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="640" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608936619593" />
+    <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.25.1280.695@0.25.1280.695" timestamp="1608937290819" />
+    <state width="1238" height="162" key="GridCell.Tab.0.center" timestamp="1608937290818">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="640" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608936619592" />
+    <state width="1238" height="162" key="GridCell.Tab.0.center/0.25.1280.695@0.25.1280.695" timestamp="1608937290818" />
+    <state width="1238" height="162" key="GridCell.Tab.0.left" timestamp="1608937290817">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="640" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608936619591" />
+    <state width="1238" height="162" key="GridCell.Tab.0.left/0.25.1280.695@0.25.1280.695" timestamp="1608937290817" />
+    <state width="1238" height="162" key="GridCell.Tab.0.right" timestamp="1608937290819">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state width="640" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608936619592" />
+    <state width="1238" height="162" key="GridCell.Tab.0.right/0.25.1280.695@0.25.1280.695" timestamp="1608937290819" />
+    <state x="262" y="77" key="NewModule_or_Project.wizard" timestamp="1608937016510">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="262" y="77" key="NewModule_or_Project.wizard/0.25.1280.695@0.25.1280.695" timestamp="1608937016510" />
+    <state x="128" y="25" key="SettingsEditor" timestamp="1608936352176">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="128" y="25" key="SettingsEditor/0.25.1280.695@0.25.1280.695" timestamp="1608936352176" />
+    <state x="305" y="165" key="run.anything.popup" timestamp="1608935617938">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="305" y="165" key="run.anything.popup/0.25.1280.695@0.25.1280.695" timestamp="1608935617938" />
+    <state x="305" y="44" width="670" height="676" key="search.everywhere.popup" timestamp="1608934506348">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="305" y="44" width="670" height="676" key="search.everywhere.popup/0.25.1280.695@0.25.1280.695" timestamp="1608934506348" />
+    <state x="478" y="167" key="svn.repositoryBrowser" timestamp="1608934475841">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="478" y="167" key="svn.repositoryBrowser/0.25.1280.695@0.25.1280.695" timestamp="1608934475841" />
+  </component>
+</project>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:skeleton" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00a8dfb6-6baa-4839-9ec0-5fbf676d27d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../proj2/byog/Core/DrawRandomMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw1/synthesizer/ArrayRingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/synthesizer/ArrayRingBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/Intlist/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Intlist/IntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/OffByN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/OffByN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/TestOffByN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/TestOffByN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/TestOffByOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/TestOffByOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/out/production/proj1b/OffByN.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/out/production/proj1b/OffByN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1b/out/production/proj1b/TestOffByOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/out/production/proj1b/TestOffByOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj2/byog/Core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/byog/Core/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj2/byog/lab5/BoringWorldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/byog/lab5/BoringWorldDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj2/byog/lab5/HexWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/byog/lab5/HexWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj2/byog/lab6/MemoryGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/byog/lab6/MemoryGame.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1o87U0Avgufp1nuTTsQOQkFkyx9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind" />
+      <module name="lab6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UnionFind" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00a8dfb6-6baa-4839-9ec0-5fbf676d27d8" name="Default Changelist" comment="" />
+      <created>1612656375736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612656375736</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="264" key="GridCell.Tab.0.bottom" timestamp="1612767981479">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612767981479" />
+    <state width="1238" height="264" key="GridCell.Tab.0.center" timestamp="1612767981476">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612767981476" />
+    <state width="1238" height="264" key="GridCell.Tab.0.left" timestamp="1612767981475">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612767981475" />
+    <state width="1238" height="264" key="GridCell.Tab.0.right" timestamp="1612767981478">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612767981478" />
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1612767980316">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612767980316" />
+    <state width="1238" height="264" key="GridCell.Tab.1.center" timestamp="1612767980314">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1612767980314" />
+    <state width="1238" height="264" key="GridCell.Tab.1.left" timestamp="1612767980313">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1612767980313" />
+    <state width="1238" height="264" key="GridCell.Tab.1.right" timestamp="1612767980315">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1612767980315" />
+    <state width="1238" height="264" key="GridCell.Tab.2.bottom" timestamp="1612767980550">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612767980550" />
+    <state width="1238" height="264" key="GridCell.Tab.2.center" timestamp="1612767980542">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1612767980542" />
+    <state width="1238" height="264" key="GridCell.Tab.2.left" timestamp="1612767980538">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1612767980538" />
+    <state width="1238" height="264" key="GridCell.Tab.2.right" timestamp="1612767980549">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1612767980549" />
+    <state x="128" y="25" key="SettingsEditor" timestamp="1612656464039">
+      <screen x="0" y="25" width="1280" height="695" />
+    </state>
+    <state x="128" y="25" key="SettingsEditor/0.25.1280.695@0.25.1280.695" timestamp="1612656464039" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UnionFind.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
