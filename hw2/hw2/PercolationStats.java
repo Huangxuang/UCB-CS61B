@@ -4,15 +4,15 @@ import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
 public class PercolationStats {
-    int numberOfExperiment;
-    double[] testResults;
-    int size;
+    private int numberOfExperiment;
+    private double[] testResults;
+    private int size;
 
     /** 1:Perform total T times of experiment
      * 2: Store the results to a array
      * */
     public PercolationStats(int N, int T, PercolationFactory pf) {
-        if (N < 1) {
+        if (N < 1 || T < 1) {
             throw new IllegalArgumentException("Size must be larger than 0 !");
         }
         numberOfExperiment = T;
@@ -60,7 +60,7 @@ public class PercolationStats {
         return (mean() + 1.96 * Math.sqrt(stddev()) / Math.sqrt(numberOfExperiment));
     }
 
-
+    /*
     public static void main(String[] args) {
         PercolationFactory pf = new PercolationFactory();
         PercolationStats per = new PercolationStats(200, 1000, pf);
@@ -70,6 +70,8 @@ public class PercolationStats {
         System.out.println("unit ");
         //System.out.println (per.isFull(1,1));
     }
+
+     */
 
 
 }

@@ -4,13 +4,13 @@ package hw2;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
-    int[][] position;
-    int size;
-    int numberOfOpen = 0;
-    WeightedQuickUnionUF uf;
-    int topNode;
-    int bottomNode;
-    boolean percolation;
+    private int[][] position;
+    private int size;
+    private int numberOfOpen = 0;
+    private WeightedQuickUnionUF uf;
+    private int topNode;
+    private int bottomNode;
+    private boolean percolation;
     //StdRandom random = new StdRandom();
 
     //Create N-by-N grid, with all sites initialize to blocked
