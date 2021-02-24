@@ -20,12 +20,19 @@ public class HashTableVisualizer {
 
         HashTableDrawingUtility.setScale(scale);
         List<Oomage> oomies = new ArrayList<>();
+        /*
         for (int i = 0; i < N; i += 1) {
            oomies.add(SimpleOomage.randomSimpleOomage());
         }
         visualize(oomies, M, scale);
     }
 
+         */
+        for (int i = 0; i < N; i += 1) {
+            oomies.add(TestComplexOomage.myHelperFunction());
+        }
+        visualize(oomies, M, scale);
+    }
     public static void visualize(List<Oomage> oomages, int M, double scale) {
         HashTableDrawingUtility.drawLabels(M);
         int[] numInBucket = new int[M];
