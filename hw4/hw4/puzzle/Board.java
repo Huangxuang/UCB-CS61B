@@ -83,7 +83,7 @@ public class Board implements WorldState {
         int res = 0;
         for(int i = 0; i < size(); i++) {
             for (int j = 0; j < size(); j++) {
-                if (board[i][j] != goal[i][j]) {
+                if (board[i][j] != 0 && board[i][j] != goal[i][j]) {
                     res++;
                 }
             }
@@ -119,11 +119,15 @@ public class Board implements WorldState {
         if (this == y) {
             return true;
         }
-        if (this == null || this.getClass() != y.getClass()) {
+        if (y == null || this.getClass() != y.getClass()) {
             return false;
         }
 
         Board temp = (Board) y;
+        if (temp.size() != this.size()) {
+            return false;
+        }
+
         for(int i = 0; i < size(); i++) {
             for (int j = 0; j < size(); j++) {
                 if (this.board[i][j] != temp.board[i][j]) {
