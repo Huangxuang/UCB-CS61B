@@ -42,6 +42,10 @@ public class MazeDepthFirstPaths extends MazeExplorer {
                 announce();
                 distTo[w] = distTo[v] + 1;
                 dfs(w);
+                //what's the meaning of this line?
+                //if without this line, need to terminate each function call one by all
+                //With it, once found, then return.
+
                 if (targetFound) {
                     return;
                 }
