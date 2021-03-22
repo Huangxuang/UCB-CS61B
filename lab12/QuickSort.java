@@ -48,12 +48,55 @@ public class QuickSort {
             Queue<Item> unsorted, Item pivot,
             Queue<Item> less, Queue<Item> equal, Queue<Item> greater) {
         // Your code here!
+        for (Item item: unsorted) {
+            if (item.compareTo(pivot) > 0) {
+                greater.enqueue(item);
+            } else if (item.compareTo(pivot) < 0) {
+                less.enqueue(item);
+            } else {
+                equal.enqueue(item);
+            }
+        }
+
     }
 
     /** Returns a Queue that contains the given items sorted from least to greatest. */
     public static <Item extends Comparable> Queue<Item> quickSort(
             Queue<Item> items) {
         // Your code here!
-        return items;
+        //base case
+        if (items.size() == 1 || items.size() == 0 ) {
+            return items;
+        }
+        //find a random pivot, Split into three queues at/from pivot.
+        Item pivot = getRandomItem(items);
+        Queue<Item> leftQueue = new Queue<>();
+        Queue<Item> sortedQueue = new Queue<>();
+        Queue<Item> rightQueue = new Queue<>();
+        partition(items, pivot,leftQueue,sortedQueue,rightQueue);
+        //quick sort on left and right queues, return catenated queue
+        Queue<Item> q1 = quickSort(leftQueue);
+        Queue<Item> q2 = quickSort(rightQueue);
+        return (catenate(catenate(q1,sortedQueue),q2));
+    }
+    public static void main(String[] args) {
+        Queue<String> students = new Queue<>();
+
+        students.enqueue("Apple");
+        students.enqueue("Vanessa");
+        students.enqueue("Ethan");
+        students.enqueue("Apple");
+        students.enqueue("12ple");
+        Queue sorted = QuickSort.quickSort(students);
+//        for (String s :students) {
+//            students2.enqueue(students.peek());
+//        }
+//        Queue test1 = MergeSort.makeSingleItemQueues(students);
+//        Queue test2 = MergeSort.mergeSortedQueues(students2, students);
+
+        System.out.println(students);
+        System.out.println(sorted);
     }
 }
+
+

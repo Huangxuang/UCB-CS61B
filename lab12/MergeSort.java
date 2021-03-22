@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.Merge;
 import edu.princeton.cs.algs4.Queue;
 
 public class MergeSort {
@@ -35,7 +36,13 @@ public class MergeSort {
     private static <Item extends Comparable> Queue<Queue<Item>>
             makeSingleItemQueues(Queue<Item> items) {
         // Your code here!
-        return null;
+       Queue<Queue<Item>> queues = new Queue<>();
+       for (Item item : items) {
+           Queue<Item> temp = new Queue<>();
+           temp.enqueue(item);
+           queues.enqueue(temp);
+       }
+       return queues;
     }
 
     /**
@@ -54,13 +61,54 @@ public class MergeSort {
     private static <Item extends Comparable> Queue<Item> mergeSortedQueues(
             Queue<Item> q1, Queue<Item> q2) {
         // Your code here!
-        return null;
+        Queue<Item> mergedQueue = new Queue<>();
+        // Queue<Item> longerQueue = q1.size() > q2.size()? q1:q2;
+        while (q1.size() > 0 || q2.size() > 0) {
+            Item biggerOne = getMin(q1,q2);
+            mergedQueue.enqueue(biggerOne);
+        }
+
+        return mergedQueue;
     }
 
     /** Returns a Queue that contains the given items sorted from least to greatest. */
     public static <Item extends Comparable> Queue<Item> mergeSort(
             Queue<Item> items) {
         // Your code here!
-        return items;
+        if (items.size() == 1) {
+            return items;
+        }
+        Queue<Queue<Item>> queues = makeSingleItemQueues(items);
+        Queue<Item> res = new Queue<>();
+
+        //Must not change items, create left and right half queue
+        Queue<Item> leftQueue = new Queue<>();
+        Queue<Item> rightQueue = new Queue<>();
+        int median = items.size() / 2;
+        for (int i = 0; i < median; i++) {
+            leftQueue.enqueue(queues.dequeue().dequeue());
+        }
+        for (int i = 0; i < items.size() - median; i++) {
+            rightQueue.enqueue(queues.dequeue().dequeue());
+        }
+        return mergeSortedQueues( mergeSort(leftQueue), mergeSort(rightQueue));
+    }
+
+    public static void main(String[] args) {
+        Queue<String> students = new Queue<>();
+        Queue<String> students2 = new Queue<>();
+
+        students.enqueue("Apple");
+        students.enqueue("Vanessa");
+        students.enqueue("Ethan");
+        Queue sorted = MergeSort.mergeSort(students);
+//        for (String s :students) {
+//            students2.enqueue(students.peek());
+//        }
+//        Queue test1 = MergeSort.makeSingleItemQueues(students);
+//        Queue test2 = MergeSort.mergeSortedQueues(students2, students);
+
+        System.out.println(students);
+        System.out.println(sorted);
     }
 }
