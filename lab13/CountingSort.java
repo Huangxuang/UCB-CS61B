@@ -67,6 +67,60 @@ public class CountingSort {
      */
     public static int[] betterCountingSort(int[] arr) {
         // TODO make counting sort work with arrays containing negative numbers.
-        return null;
+        //find max and min value in the array arr, build counts array with size
+        //equal max + min + 1 to counts for negative numbers, the counts for negative
+        //numbers are concatenated at arr from index max
+        //i.e. the index of negative number i in counts is max - i;
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+
+        for (int i : arr) {
+            max = i> max ? i : max;
+            min = i < min ? i : min;
+        }
+
+        //Initialize counts array
+        int[] counts = new int[max - min + 1];
+        for(int i :arr) {
+            if (i >= 0) {
+                counts[i] ++;
+            } else {
+                counts[max - i] ++;
+            }
+        }
+
+        //Calculate starts array
+        int[] starts = new int [counts.length];
+        //process negative numbers first if exist
+        int pos = 0;
+        for(int i = starts.length - 1; i > max; i-- ) {
+            starts[i] = pos;
+            pos += counts[i];
+        }
+        //then process positive number
+        for (int i = 0; i <= max; i++ ) {
+            starts[i] = pos;
+            pos += counts[i];
+        }
+
+        int[] sorted = new int[arr.length];
+        for(int i = 0; i < arr.length; i++) {
+            int item = arr[i];
+            int tempItem = item;
+            if(item < 0) {
+                item = max - item;
+            }
+            int location = starts[item];
+            sorted[location] = tempItem > 0 ? item: tempItem;
+            starts[item]++;
+        }
+
+        return sorted;
+    }
+
+    public static void main (String[] args) {
+        int[] someNegative = {9, 5, -4, 2, 1, -2, 5, 3, 0, -2, 3, 1, 1};
+        //System.out.println(CountingSort.betterCountingSort(someNegative));
+
     }
 }
