@@ -15,7 +15,10 @@ public class RadixSort {
      *
      * @return String[] the sorted array
      */
+    public static final int R = 256;
+
     public static String[] sort(String[] asciis) {
+
         // TODO: Implement LSD Sort
         //find out the longest string length, call LSD that number of times
         String[] sorted = asciis.clone();
@@ -29,6 +32,8 @@ public class RadixSort {
             sortHelperLSD(sorted,i);
         }
         return sorted;
+
+
     }
 
     /**
@@ -86,6 +91,18 @@ public class RadixSort {
         return itemToInt;
     }
 
+
+    public static String[] MSDSort (String[] asciis) {
+        //TODO : Implement MSD Sort
+        int arraySize = asciis.length;
+        String[] res = asciis.clone();
+        sortHelperMSD(res,0,arraySize - 1,0);
+
+        return res;
+    }
+
+
+
     /**
      * MSD radix sort helper function that recursively calls itself to achieve the sorted array.
      * Destructive method that changes the passed in array, asciis.
@@ -96,15 +113,74 @@ public class RadixSort {
      * @param index the index of the character the method is currently sorting on
      *
      **/
+
+
+    //if start <= end - 1, means only one/none String need to be sort, nothing need to be done,return
     private static void sortHelperMSD(String[] asciis, int start, int end, int index) {
         // Optional MSD helper method for optional MSD radix sort
-        return;
+
+        //counts frequency of each character
+        //counts[0] is reserved for string which has no character at current index
+        if (start >= end - 1) {
+            return;
+        }
+        int[] counts = new int[R + 2];
+        for (int i = start; i <= end; i++) {
+            int x = myCharAt(asciis[i], index);
+            counts[x] ++;
+        }
+        //transform counts to starts position
+        int[] starts = new int[R + 2];
+        int pos = 0;
+        for (int i = 0; i < counts.length; i++) {
+            starts[i] = pos;
+            pos += counts[i];
+        }
+
+        //sort asciis
+        String[] aux = new String[end - start + 1];
+        for (int i = start; i <= end; i++) {
+            String item = asciis[i];
+            int x = myCharAt(asciis[i],index);
+            int location = starts[x];
+            aux[location] = item;
+            starts[x]++;
+        }
+        //copy back
+        for (int i = 0; i< aux.length; i++) {
+            asciis[i + start] = aux[i];
+        }
+
+        //recursively sort on each character in the alphabet
+        for (int i = 1; i < R + 2; i++) {
+            sortHelperMSD(asciis,start + starts[i - 1],
+                    //if i starts from 0, 0-1 = -1, I need a sentinal node!!!
+                    start + starts[i] - 1, index + 1);
+        }
+
+//        // Copy Princeton's code to test if it's buggy
+//        for (int r = 0; r < R; r++) {
+//            sortHelperMSD(asciis,start + starts[r],
+//                    //if i starts from 0, 0-1 = -1, I need a sentinal node!!!
+//                    start + starts[r + 1] - 1, index + 1);
+//        }
+    }
+
+
+    private static int myCharAt (String s, int index) {
+        if (s.length() <= index) {
+            return 1 ;
+        } else {
+            return s.charAt(index) + 2;
+        }
+
     }
 
     public static void main (String[] args) {
         String[] test = {"asdf","123","aa","asdff","!@#","223"};
 
-        String[] res = RadixSort.sort(test);
+        String[] res1 = RadixSort.sort(test);
+        String[] res = RadixSort.MSDSort(test);
         for (String s : res) {
             System.out.println(s +"");
         }
